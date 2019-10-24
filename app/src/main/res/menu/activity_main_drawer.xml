@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/ic_map"
+            android:title="@string/map" />
+
+        <item
+            android:id="@+id/nav_status"
+            android:icon="@drawable/ic_status"
+            android:title="@string/status" />
+
+        <item
+            android:id="@+id/nav_track"
+            android:icon="@drawable/ic_track"
+            android:title="@string/track" />
+
+        <item
+            android:id="@+id/nav_team"
+            android:icon="@drawable/ic_team"
+            android:visible="false"
+            android:title="@string/team" />
+
+
+    </group>
+
+    <item android:title="@string/more">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share"
+                android:title="@string/share"
+                android:visible="false"/>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_exit"
+                android:title="@string/Logout" />
+        </menu>
+    </item>
+
+</menu>

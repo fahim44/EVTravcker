@@ -1,0 +1,42 @@
+package com.evwwa.evtracker.ConnectionHandler.ResponseClasses;
+
+import com.evwwa.evtracker.Utils.AppConstants;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
+/**
+ * Created by fahim on 3/21/18.
+ */
+
+public class WhoTrackMeResponse extends Response {
+    private String fullName, email;
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getFullName() {
+        return fullName;
+    }
+
+    public void setFullName(String fullName) {
+        this.fullName = fullName;
+    }
+
+    @Override
+    public void setJSON(String st) {
+        try {
+            JSONObject x = new JSONObject(st);
+            this.setResultCode(x.getInt("result"));
+            this.setFullName(x.getString("fullname"));
+            this.setEmail(x.getString("email"));
+        } catch (JSONException var4) {
+            this.setResultCode(AppConstants.RESPONSE_FAILED_TO_CONVERT_FPOM_STRING_TO_JSON); //failed to convert
+        }
+    }
+}

@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">EVTracker</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="fullname">Full Name</string>
+    <string name="login">Login</string>
+    <string name="signup">SignUp</string>
+    <string name="forget_password">Forget Password</string>
+
+    <string name="map">Map</string>
+    <string name="status">Status</string>
+    <string name="track">Track</string>
+    <string name="team">Team</string>
+    <string name="more">More</string>
+    <string name="share">Share</string>
+    <string name="Logout">Logout</string>
+
+    <string name="you_are_here">You are here</string>
+
+    <string name="ok">OK</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="accept">Accept</string>
+    <string name="decline">Decline</string>
+
+    <string name="logout_message">Do you really want to Logout?</string>
+
+    <string name="track_title">Add email to track</string>
+    <string name="stop_tracking_message">Do you really want to stop tacking </string>
+    <string name="tracking_stopped">Tracking stopped</string>
+    <string name="track_req_send">Track request send</string>
+
+    <string name="wait">Please wait&#8230;</string>
+
+    <string name="error_message">Something is wrong.Please try again.</string>
+
+    <string name="autostart_msg_xiaomi">Please enable auto-start for EVTracker.</string>
+    <string name="autostart_msg_huawei">Please enable protected app for EVTracker.</string>
+    <string name="autostart_msg_letv">Please enable autoboot for EVTracker.</string>
+
+    <string name="forget_password_q">Forget Password?</string>
+</resources>
